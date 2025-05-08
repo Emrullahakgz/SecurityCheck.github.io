@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Syne', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+   }
+   
+   .sidebar {
+    background-color: #333;
+    color: white;
+    width: 300px;
+    height: calc(100vh - 40px);
+    position: fixed; 
+    top: 74px; 
+    left: 0;
+    padding-top: 20px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+
+}
+
+p{
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px 20px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #555;
+    border-bottom: 2px solid;
+}
+
+.content {
+    margin-left: 10px; 
+    padding: 10px;
+    width: calc(100% - 250px);
+    color: white;
+}
+#anasayfa{
+    background-color: gray;
+    height: 100vh;
+    background-image: url("../Wallpapers/bu.png"); 
+    background-size: cover;
+    border-radius: 15px;
+    background-attachment: fixed;
+}
+
+button{
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+    margin-left: auto;
+    margin-right: 0;
+}
+    button:hover {
+        background-color: black;
+    }
+#icerik{
+    color: white;
+   position: relative;
+   top: 0%;
+    left: 30%;
+    padding-right: 800px;
+    width: 100hv;
+}
+
+input[type="text"] {
+    padding: 12px;
+    font-size: 18px;
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+pre{
+    padding: 50px 25px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 80%;
+    transition: background-color 0.3 ease;
+    margin-top: 5px;
+    overflow-x: auto; 
+    white-space: pre-wrap; 
+}
+
+#sonuc{
+    width: 90%;
+    height: 300px;
+    overflow: auto;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    padding: 15px;
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px; 
+}

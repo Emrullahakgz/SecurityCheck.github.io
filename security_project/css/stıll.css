@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Syne', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+   }
+   
+   .sidebar {
+    background-color: #333;
+    color: white;
+    width: 300px;
+    height: calc(100vh - 40px);
+    position: fixed; 
+    top: 74px; 
+    left: 0;
+    padding-top: 20px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px 20px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #555;
+    border-bottom: 2px solid;
+}
+
+#icerik{
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    padding-right: 350px;
+}
+
+p{
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.content {
+    margin-left: 10px; 
+    padding: 10px;
+    width: calc(100% - 250px);
+    color: white;
+}
+#anasayfa{
+    background-color: gray;
+    height: 100vh;
+    background-image: url("../Wallpapers/Siber.jpg"); 
+    background-size: cover;
+    border-radius: 15px;
+    background-attachment: fixed;
+}
