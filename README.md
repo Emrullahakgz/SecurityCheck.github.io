@@ -1,3 +1,11 @@
+Security Check
+-----------------------
+Security Check, temel siber güvenlik kontrollerini tek bir platformda toplayan, Python ve Flask tabanlı bir web uygulamasıdır. Kullanıcıların IP adresleri veya alan adları üzerinden çeşitli güvenlik analizleri yapmasına olanak tanır.
+Proje; WHOIS, Nmap, MX Lookup, DMARC kontrolü, Blacklist sorgulama ve DNS kayıt analizi gibi araçları içerir. Yapılan tüm sorgular MySQL veritabanına kaydedilerek izlenebilirlik ve raporlama imkânı sağlar.
+
+AMAÇ: 
+Siber güvenlik farkındalığını artırmak ve temel güvenlik kontrollerini kullanıcı dostu bir arayüzle kolaylaştırmak.
+
 🚀 ÖZELLİKLER
 - 🌐 WHOIS sorgulama: Alan adlarının kayıt bilgilerini görüntüler.
 - 🔎 Nmap taraması: IP adresleri veya domain'ler için açık port ve servis tespiti yapar.
