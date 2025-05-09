@@ -8,7 +8,9 @@
 - 🖥️ Web arayüzü: Kullanıcı dostu, basit ve anlaşılır bir web arayüzü.
 - 💾 Sonuçları veritabanına kaydetme özelliği (MySQL).
 
-  ⚙️ GEREKSİNİMLER
+  
+
+⚙️ GEREKSİNİMLER
 - Python 3.x
 - Flask
 - python-whois
@@ -16,6 +18,8 @@
 - mysql-connector-python
 - nmap (sistemde kurulu olmalı)
 - XAMPP veya MySQL Workbench (veritabanı için)
+
+
 
 🤝 KATKI SAĞLAMA
 
@@ -29,6 +33,8 @@ Aşağıdaki adımları izleyerek katkıda bulunabilirsiniz:
 5. Bir Pull Request gönderin
 
 Her türlü geri bildirim ve öneriye açığım. 🙌
+
+
 
 ![github 4](https://github.com/user-attachments/assets/b920d832-27ff-4dde-947d-af13e5ff4966)
 ![github2](https://github.com/user-attachments/assets/f132e5e8-dde4-47da-a7c6-77f5b8d1df02)
